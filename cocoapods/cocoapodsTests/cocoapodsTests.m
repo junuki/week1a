@@ -1,6 +1,6 @@
 //
-//  week1aTests.m
-//  week1aTests
+//  cocoapodsTests.m
+//  cocoapodsTests
 //
 //  Created by Jung Eun Kim on 6/22/14.
 //  Copyright (c) 2014 jung. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface week1aTests : XCTestCase
+@interface cocoapodsTests : XCTestCase
 
 @end
 
-@implementation week1aTests
+@implementation cocoapodsTests
 
 - (void)setUp
 {
