@@ -41,12 +41,12 @@
     self.thumbnailView.layer.cornerRadius = 2;
     self.thumbnailView.layer.masksToBounds = YES;
 
-    TTTAttributedLabel *label = [[TTTAttributedLabel alloc] initWithFrame:CGRectMake(15, 38, 280, 100)];
+    TTTAttributedLabel *label = [[TTTAttributedLabel alloc] initWithFrame:CGRectMake(15, 90, 280, 50)];
     label.font = [UIFont systemFontOfSize:14];
     label.textColor = [UIColor darkGrayColor];
     label.numberOfLines = 0;
     
-    NSString *text = @"Not everybody can withstand the rigorous work schedule of a #GrandBudapest Hotel lobby boy, but with this simple manual ™ http://bit.ly/GBH_Bluray everyone can do it";
+    NSString *text = @"http://bit.ly/GBH";
    
     
     label.enabledTextCheckingTypes = NSTextCheckingTypeLink;
